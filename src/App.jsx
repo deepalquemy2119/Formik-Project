@@ -47,7 +47,7 @@ function App() {
     <>
 
       {/* <h3>{use}</h3> */}
-      <h3>Formulario Registro</h3>
+      <h3>Formulario Registro   </h3>
 
       <Form className='formulario' onSubmit={formik.handleSubmit} >
       <Form.Input type='text' placeholder= 'Nombre y Apellido' name= 'name' onChange={formik.handleChange} error={formik.errors.name} value={formik.values.name}/>
